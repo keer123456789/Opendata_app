@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    tools:context=".MainActivity" >
+
+    <com.example.lenovo.myapplication.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"></com.example.lenovo.myapplication.TitleLayout>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Account：" />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:hint="Input your account" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="PassWord：" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="32dp"
+        android:text="RESET" />
+
+
+</TableLayout>

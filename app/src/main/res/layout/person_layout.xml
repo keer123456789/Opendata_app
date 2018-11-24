@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.lenovo.myapplication.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"></com.example.lenovo.myapplication.TitleLayout>
+
+    <Button
+        android:id="@+id/MessageCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="消息中心" />
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查" />
+    <Button
+        android:id="@+id/revoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="撤销授权" />
+
+</LinearLayout>

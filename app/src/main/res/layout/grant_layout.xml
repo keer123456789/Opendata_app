@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <com.example.lenovo.myapplication.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"></com.example.lenovo.myapplication.TitleLayout>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Address:" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="确认授权" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/no"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="拒绝授权" />
+    </TableRow>
+
+
+</TableLayout>
